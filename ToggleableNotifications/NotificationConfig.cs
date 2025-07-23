@@ -8,7 +8,8 @@ namespace ToggleableNotifications
     [JsonObject(MemberSerialization.OptIn)]
     [ModInfo("Toggleable Notifications",
              "Silently suppress specific in‑game notifications.")]
-    //RestartRequired] // optional, if changing these needs a game restart
+    //[RestartRequired] // optional, if changing these needs a game restart
+    
     public sealed class NotificationConfig
     {
         [JsonProperty] // so PLib’s JSON reader will write/read 
