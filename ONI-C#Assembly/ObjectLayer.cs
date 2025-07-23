@@ -1,0 +1,56 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: ObjectLayer
+// Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+// MVID: 3B73C925-1141-43C5-BAD3-1CCBC5FACDF1
+// Assembly location: D:\Program Files (x86)\Steam\steamapps\common\OxygenNotIncluded\OxygenNotIncluded_Data\Managed\Assembly-CSharp.dll
+
+#nullable disable
+public enum ObjectLayer
+{
+  Minion,
+  Building,
+  Backwall,
+  Pickupables,
+  Canvases,
+  Plants,
+  FillPlacer,
+  DigPlacer,
+  MopPlacer,
+  FoundationTile,
+  PlasticTile,
+  ReplacementTile,
+  GasConduit,
+  GasConduitTile,
+  ReplacementGasConduit,
+  GasConduitConnection,
+  LiquidConduit,
+  LiquidConduitTile,
+  ReplacementLiquidConduit,
+  LiquidConduitConnection,
+  SolidConduit,
+  SolidConduitTile,
+  ReplacementSolidConduit,
+  SolidConduitConnection,
+  LadderTile,
+  ReplacementLadder,
+  Wire,
+  WireTile,
+  ReplacementWire,
+  WireConnectors,
+  LogicGate,
+  LogicWire,
+  LogicWireTile,
+  ReplacementLogicWire,
+  TravelTube,
+  TravelTubeTile,
+  ReplacementTravelTube,
+  TravelTubeConnection,
+  AttachableBuilding,
+  Gantry,
+  Mover,
+  Rover,
+  Critter,
+  ReplacementBackwall,
+  MovePlacer,
+  NumLayers,
+}
